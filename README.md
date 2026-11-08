@@ -9,7 +9,7 @@
 
 ## アクセスのしかた
 
-- User-Agent：`golLab-course-data/0.1 (+https://github.com/kumpei17/golLab-course-data)`
+- User-Agent：`golLab-course-data/0.1.0 (+https://github.com/kumpei17/golLab-course-data)`
 - robots.txt に従います。
 - 同じサイトへは5秒以上の間隔をあけてアクセスします。
 - 取りに行くのは、コース紹介やスコアカードなどコース情報が載ったページと、そこに置かれたPDF・画像だけです。1サイトあたり数十件までです。
@@ -26,7 +26,7 @@
 
 This page describes **golLab-course-data**, a small crawler that reads golf course information (par, yardage by tee and handicap for each hole) from golf courses' official websites, for a personal golf score app in development. It is currently being tested on courses in the Kanto region of Japan.
 
-- User-Agent: `golLab-course-data/0.1 (+https://github.com/kumpei17/golLab-course-data)`
+- User-Agent: `golLab-course-data/0.1.0 (+https://github.com/kumpei17/golLab-course-data)`
 - It obeys robots.txt and waits at least 5 seconds between requests to the same site.
 - It fetches only pages, PDFs and images that show course information, a few dozen at most per site. Fetched pages are kept locally so they are not fetched again, and they are never republished.
 - It does not crawl sites whose terms of use prohibit automated access.
